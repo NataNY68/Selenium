@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Tumblr">
+    <test name="MyTest">
+            <parameter name="email" value="lol@gmail.com"></parameter>
+            <parameter name="password" value="123"></parameter>
+            <parameter name="errorMessage" value="Your email or password were incorrect."></parameter>
+    <classes>
+
+        <class name="mentoringWithKuba.tumblr.tests.TumblrScript"></class>
+
+    </classes>
+
+</test>
+
+</suite>

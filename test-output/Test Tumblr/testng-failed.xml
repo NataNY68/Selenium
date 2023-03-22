@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Tumblr]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MyTest(failed)">
+    <parameter name="password" value="123"/>
+    <parameter name="errorMessage" value="Your email or password were incorrect."/>
+    <parameter name="email" value="lol@gmail.com"/>
+    <classes>
+      <class name="mentoringWithKuba.tumblr.tests.TumblrScript">
+        <methods>
+          <include name="setup"/>
+          <include name="validateLoginFunctionality" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- mentoringWithKuba.tumblr.tests.TumblrScript -->
+    </classes>
+  </test> <!-- MyTest(failed) -->
+</suite> <!-- Failed suite [Test Tumblr] -->

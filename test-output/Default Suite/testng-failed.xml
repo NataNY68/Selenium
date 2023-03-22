@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="untitled1(failed)">
+    <classes>
+      <class name="homework4.tests.HomeTest">
+        <methods>
+          <include name="setup"/>
+          <include name="deletePatientFunctionality"/>
+        </methods>
+      </class> <!-- homework4.tests.HomeTest -->
+    </classes>
+  </test> <!-- untitled1(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
